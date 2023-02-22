@@ -1,0 +1,151 @@
+html body {
+    background-color: #eeeeee;
+    height: 145vh;
+    font-family: "Century Gothic";
+}
+
+html {
+    --scrollbarBG: #CFD8DC;
+    --thumbBG: #040404;
+}
+
+body::-webkit-scrollbar {
+    width: 11px;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+}
+
+.left {
+    background-color: #2f2d30;
+    width: 35%;
+    height: 100%;
+    display: inline-block;
+}
+
+.right {
+    height: 100%;
+    display: inline-block;
+}
+
+.label {
+    background-color: #dddddf;
+    width: 100%;
+    height: 15vh;
+    position: absolute;
+    margin-top: 10vh;
+}
+
+.labelContent {
+    margin-left: 40%;
+    font-size: 3vh;
+}
+
+.labelImg {
+    margin-top: 5vh;
+    margin-left: 20vh;
+    position: absolute;
+    z-index: 1;
+}
+
+.labelText {
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+.labelUnderText {
+    color: #a4a2a5;
+}
+
+.imageAvatar {
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    border: 0.75vh solid;
+    border-color: #cacbcd;
+    object-fit: cover;
+}
+
+.leftContent, .rightContent {
+    margin-top: 35vh;
+    position: absolute;
+}
+
+.leftContent {
+    margin-left: 12vh;
+    color: #e7e5e8;
+}
+
+.rightContent {
+    margin-left: 8vh;
+    color: #525252;
+}
+
+.lineLeft, .lineRight {
+    height: 1px;
+}
+
+.lineLeft {
+    background-color: #e7e5e8;
+    width: 30vh;
+}
+
+.lineRight {
+    background-color: #525252;
+    width: 100vh;
+}
+
+.rightText {
+    width: 100vh;
+    margin-top: 2vh;
+
+}
+
+.contact, .education, .skills, .profile, .workExperience {
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.contactElement {
+    display: inline-block;
+    margin-top: 2vh;
+    margin-left: 1vh;
+}
+
+.educationHeader, .skillHeader, .workHeader {
+    font-size: 2vh;
+    font-weight: lighter;
+    margin-top: 2vh;
+}
+
+.educationContent{
+    font-size: 1.5vh;
+    font-family: "Verdana";
+    font-weight: 100;
+}
+
+.skillContent {
+    font-size: 1.5vh;
+    font-weight: 100;
+    margin-top: 2vh;
+}
+
+.space {
+    height: 10vh;
+}
+
+.smallSpace {
+    height: 2vh;
+}
