@@ -1,0 +1,65 @@
+.section-block {
+    padding-top: 10vh;
+}
+
+.block-content
+{
+    width: 200px;
+    height: 200px;
+    margin: 5vh;
+    margin-left: 11vh;
+    padding: 2vh;
+    display: inline-flex;
+}
+
+.block-content:after
+{
+    content:"✎";
+}
+
+.navigation-bar {
+    position: fixed;
+    color: white;
+    background-color: black;
+    width: 99%;
+}
+
+.nav-link {
+    display: inline-block;
+    margin-left: 5vh;
+}
+
+@media screen and (max-width: 1290px) {
+    .block-content
+    {
+        margin-left: 15vh;
+    }
+}
+
+@media screen and (max-width: 1215px) {
+    .block-content
+    {
+        margin-left: 30vh;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .block-content
+    {
+        margin-left: 50vh;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .block-content
+    {
+        margin-left: 30vh;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .block-content
+    {
+        margin-left: 15vh;
+    }
+}
